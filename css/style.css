@@ -80,6 +80,7 @@ header .content .contentheader {
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 .index1 .imgIndex1 {
   height: 100vh;
@@ -101,7 +102,9 @@ header .content .contentheader {
 .index1 .imgIndex1 .indicador img {
   position: absolute;
   bottom: 50%;
-  right: 15%;
+  right: 74%;
+  width: 80px;
+  height: 80px;
   animation: miAni 1s infinite;
 }
 @keyframes miAni {
@@ -127,6 +130,7 @@ header .content .contentheader {
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 .index2 .imgIndex2 {
   height: 100vh;
@@ -136,6 +140,32 @@ header .content .contentheader {
   width: 100%;
   height: 100vh;
   object-fit: cover;
+}
+.index2 .imgIndex2 .indicador {
+  position: relative;
+  top: -100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+.index2 .imgIndex2 .indicador img {
+  position: absolute;
+  bottom: 50%;
+  right: 45%;
+  width: 80px;
+  height: 80px;
+  animation: miAni 1s infinite;
+}
+@keyframes miAni {
+  0% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(120%);
+  }
+  100% {
+    transform: scale(100%);
+  }
 }
 .index2 .index2Tite {
   display: flex;
@@ -167,6 +197,119 @@ header .content .contentheader {
 .index2 .contentIndex2 .prod .carritoDiv {
   display: flex;
   justify-content: end;
+}
+
+.index3 {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.index3 .index3Tite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.index3 .index3Tite .vertical {
+  padding: 1rem;
+  font-size: 16px;
+  transform: rotate(-90deg);
+  width: max-content;
+}
+.index3 .index3Col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.index3 .index3Col1 .index3colection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.index3 .index3Col1 .index3colection .index3Co {
+  width: 230px;
+  height: 230px;
+  margin: 5px;
+  object-fit: cover;
+}
+.index3 .index3Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.index4 {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.index4 .index4Tite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.index4 .index4Tite .vertical {
+  padding: 1rem;
+  font-size: 16px;
+  transform: rotate(-90deg);
+  width: max-content;
+}
+.index4 .articulos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.index4 .articulos .articuloPilcera {
+  margin: 5px;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.index4 .articulos .articuloPilcera img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.index4 .articulos .articuloPilcera h2 {
+  margin: 20px 0;
+}
+.index4 .articulos .articuloPilcera .carrito {
+  width: 20px;
+  height: 20px;
+}
+.index4 .articulos1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.index4 .articulos1 .articulocaravanas {
+  width: 40%;
+  height: 50vh;
+  margin: 5px;
+  overflow: hidden;
+}
+.index4 .articulos1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+.index4 .articulos1 h2 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+.index4 .articulos1 p {
+  font-size: 16px;
+}
+.index4 .articulos1 .carrito {
+  width: 20px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

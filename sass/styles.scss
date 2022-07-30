@@ -104,6 +104,7 @@ header{
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 30px;
 
     .imgIndex1{
         height: 100vh;
@@ -127,7 +128,9 @@ header{
             img{
                 position: absolute;
                 bottom: 50%;
-                right: 15%;
+                right: 74%;
+                width: 80px;
+                height: 80px;
                 
                 animation: miAni 1s infinite;
             }
@@ -162,6 +165,7 @@ header{
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 30px;
 
     .imgIndex2{
         height: 100vh;
@@ -171,6 +175,39 @@ header{
             width: 100%;
             height: 100vh;
             object-fit: cover;
+        }
+
+        .indicador{
+            position: relative;
+            top: -100%;
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+        
+          
+            img{
+                position: absolute;
+                bottom: 50%;
+                right: 45%;
+                width: 80px;
+                height: 80px;
+                
+                animation: miAni 1s infinite;
+            }
+
+            @keyframes miAni {
+
+                0%{
+                    transform: scale(100%);
+                }
+                50%{
+                    transform: scale(120%);
+                }
+                100%{
+                    transform: scale(100%);
+                }
+                
+            }
         }
     }
 
@@ -211,4 +248,146 @@ header{
             }
         }
     }
+}
+
+.index3{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    .index3Tite{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .vertical{
+            padding: 1rem;
+            font-size: 16px;
+            transform: rotate(-90deg);
+            width: max-content;
+        }
+    }
+
+    .index3Col1{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .index3colection{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .index3Co{
+                width: 230px;
+                height: 230px;
+                margin: 5px;
+
+                object-fit: cover;
+                
+            }
+        }
+
+        
+    }
+
+    .index3Div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+}
+
+.index4{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+
+    .index4Tite{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .vertical{
+            padding: 1rem;
+            font-size: 16px;
+            transform: rotate(-90deg);
+            width: max-content;
+        }
+    } 
+
+    .articulos{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .articuloPilcera{
+            margin: 5px;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 300px;
+            }
+
+            h2{
+                margin: 20px 0;
+            }
+
+            .carrito{
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+    }
+
+    .articulos1{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .articulocaravanas{
+            width: 40%;
+            height: 50vh;
+            margin: 5px;
+            overflow: hidden;
+        }
+
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 150px;
+        }
+
+        h2{
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+        }
+
+        .carrito{
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    
 }
