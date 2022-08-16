@@ -46,46 +46,23 @@ header{
 
     .content{
         
-        .imgheader{
+        .contentimg{
             width: 100%;
             height: 60vh;
+            position: relative;
             overflow: hidden;
-
-            .imgHeado1{
-                width: 100%;
-                height: 60vh;
-                object-fit: cover;
-            }
 
             .indicador{
                 position: absolute;
-                width: 80vw;
+                top: 23%;
+                left: 73%;
+            }
+
+            .producto-0{
+                position: absolute;
                 height: 60vh;
-                z-index: 1;
-            
-              
-                img{
-                    position: absolute;
-                    bottom: 50%;
-                    right: 15%;
-                    width: 80px;
-                    
-                    animation: miAni 1s infinite;
-                }
-
-                @keyframes miAni {
-
-                    0%{
-                        transform: scale(100%);
-                    }
-                    50%{
-                        transform: scale(120%);
-                    }
-                    100%{
-                        transform: scale(100%);
-                    }
-                    
-                }
+                object-fit: cover;
+                
             }
             
         }
@@ -105,6 +82,10 @@ header{
     width: 100%;
     overflow: hidden;
     margin-bottom: 30px;
+
+    // position: sticky;
+    // top: 20px;
+    // z-index: 1;
 
     .imgIndex1{
         height: 100vh;
@@ -166,6 +147,11 @@ header{
     width: 100%;
     overflow: hidden;
     margin-bottom: 30px;
+
+    // position: sticky;
+    // top: 20px;
+    // background-color: white;
+    // z-index: 2;
 
     .imgIndex2{
         height: 100vh;
@@ -256,6 +242,11 @@ header{
     overflow: hidden;
     margin-bottom: 30px;
 
+    // position: sticky;
+    // top: 20px;
+    // background-color: white;
+    // z-index: 3;
+
     .index3Tite{
         display: flex;
         flex-direction: column;
@@ -308,8 +299,11 @@ header{
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 30px;
 
+    // position: sticky;
+    // top: 20px;
+    // background-color: white;
+    // z-index: 4;
 
     .index4Tite{
         display: flex;
